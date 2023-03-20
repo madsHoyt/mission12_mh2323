@@ -27,6 +27,7 @@ function App() {
     <div>
       <Welcome/>
       <div className="container">
+        <h2>Schools</h2>
         <SchoolList/>
       </div>
       <div className='container'>
@@ -39,13 +40,9 @@ function Welcome(){
   return(
     <div className="App">
       <header className="App-header">
-        <h1>NCAA Vasketball</h1>
+        <h1>NCAA Basketball</h1>
         <h2>Check out all the colleges in NCAA Basketball</h2>
-      </header>
-      <body>
-        <h2>Schools</h2>
-      </body>
-      
+      </header>      
     </div>
   )
 }
